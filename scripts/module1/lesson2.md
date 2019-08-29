@@ -65,13 +65,36 @@ Hicimos una puesta en común del enunciado del mijo:
 > Desafío: modelar el mijo, que es otro objeto que pepita se puede comer. El mijo puede estar seco o mojado. Cuando está seco me da 10 calorías, mojado sólo 2.
 
 Propusieron varias soluciones:
-- Tener 2 objetos: `mijoSeco` y `mijoMojado`
-- Tener un objeto que se guarda `energía`
-- Tener un objeto que se guarda `estaMojado`
-- Tener un objeto que se guarda un `estado` que pueden ser otros 2 objetos: `seco` o `mojado`
+1. Tener 2 objetos: `mijoSeco` y `mijoMojado`
+2. Tener un objeto que se guarda `energía`, que al mojarse resta energía y al secarse suma.
+```
+object mijo {
+  var energia = 20
+  method mojarse() { energia -= 5 }
+  method secarse() { energia += 5 }
+  method energia() = energia
+}
+```
+  
+Esta propuesta tiene el problema de que es frágil a que el usuario llame dos veces a `mojarse` o `secarse` y si pasa eso queda una energía inconsistente.
+
+3. Tener un objeto que se guarda `energía` evitando sumas y restas.
+```
+object mijo {
+  var energia = 20
+  method mojarse() { energia = 15 }
+  method secarse() { energia = 20 }
+  method energia() = energia
+}
+```
+  
+4. Tener un objeto que se guarda `estaMojado`
+5. Tener un objeto que se guarda un `estado` que pueden ser otros 2 objetos: `seco` o `mojado`
 
 Charlamos sobre las desventajas de las primeras dos frente a las últimas dos en cuanto a **modelado del estado**. Y en la charla mencionamos el _tener como guía el **requerimiento**_.
 También discutimos un poco de _modelo vs realidad_.
+La diferencia entre la opción 3 y la 4 es interesante para pensar la similitud entre lo que me pide el enunciado y lo que dice el código.
+
 
 > **(*)** Para mi en este desafío faltó el `cuantoQuiereVolar()` que mete la idea de _referencias locales_.
 
