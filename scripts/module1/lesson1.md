@@ -8,6 +8,8 @@ Una vez hecho eso, podemos presentar a pepita y mostrar como la usamos en un pro
 
 Lo que sigue está basado en el código de ejemplo en https://github.com/npasserini/pepita.
 
+> **Idea para 2020c1**: Si podemos hacer este ejercicio en Mumuki podríamos tener mediciones precisas de todo esto.
+
 ## Bienvenidos al Wollok IDE
 Pero para llegar a los mensajes primero tenemos que contar algo (mínimo) del entorno.
 - ¿Qué es un IDE?
