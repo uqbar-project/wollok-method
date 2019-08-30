@@ -75,6 +75,8 @@ Volvamos al diagrama:
 
 > Cuando hayan hecho la manzana podemos preguntarnos cómo hicieron, por qué le pusieron el mensaje energía. Y tirar una primera definición de **polimorfismo**.
 
+> **Sugerencia de mejora**: Agregar un ejemplo con estado (y un if?) antes del mijo. Otros ejemplos podrían incluir delegar en otros objetos, inicializar un objeto con un atributo que apunte a un objeto no básico.
+
 # Tarea para la clase que viene
 - Instalar el entorno Wollok (y probar pepita en casa).
 - Del capítulo 1 de Mumuki hacer las lecciones 1 y 2.
