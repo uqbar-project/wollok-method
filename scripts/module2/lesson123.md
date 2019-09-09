@@ -2,6 +2,12 @@
 Esta introducción está dividida en tres partes, aunque en UNQ las tres teóricas con sus tres prácticas las dimos en sólo dos clases.
 
 ## Primera parte: Familiarizarse con el framework
+**Teoría**
+- Concepto de framework (comparando con librería)
+  - El juego/framework nos quita el control y nos manda mensajes.
+  - Para que algo pase hay que respetar el contrato: `image` y `position`.
+  - Ambos mensajes son *consultas*, debemos tener en cuenta y respetar eso.
+
 **Ejemplo propuesto:** Tutorial 1. 
 - Comienza Pepita como character y el cambio de imagen cuando Pepita llega al nido.
 
