@@ -27,6 +27,7 @@ Esta introducción está dividida en tres partes, aunque en UNQ las tres teóric
 - Si pepita está muerta (energía <= 0) entonces no se puede mover y se muestra "gris".
 - Configurar la tecla C para que cuando esté arriba de una comida la coma: aumente su energía y desaparezca del juego. (Darles un método para obtener UN collider, en vez de una lista).
 - *BONUS:* Al morir pepita, esperar 2 segundos y terminar el juego (stop + schedule(?)).
+- *BONUS:* Agregar la gravedad -> onTick
 
 ## Tercera parte: Intro colisiones
 **Ejemplo propuesto:** Tutorial 3: 
@@ -43,7 +44,7 @@ Esta introducción está dividida en tres partes, aunque en UNQ las tres teóric
 ## Práctica
 ### Nivel 1: Eventos
 **Desafíos:**
-- Meter la gravedad -> onTick
+- Partir del tutorial 3 y agregar todos los items anteriores incluyendo los *BONUS*.
 - Hacer los BONUS anteriores
 
 > Continuación para después del ejercicio de colecciones.
