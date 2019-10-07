@@ -8,6 +8,11 @@ En la descripción que sigue se considera ese ejemplo.
 ## ¿Cómo comenzar?
 Los estudiantes podrían tener dificultades al ser la primera vez que se enfrentan a un ejercicio de este volumen, por lo tanto conviene tomarse unos minutos para charlar con ellos sobre cómo comenzar.
 
+De mínima, algunas aclaraciones para los estudiantes:
+- Este ejercicio no se puede resolver escribiendo código "de una", conviene con una vista de más alto nivel, pensar qué objetos/clases necesitan y quién conoce a quién.
+- Cuando escriban tests, van a notar que el _setup_ del test es largo, hay que tomarse tiempo para eso.
+
+## Una intro más larga y teórica
 Es un buen momento para fomentar la _metacognición_ sobre sus propios procesos de construcción de un programa preguntándoles, qué herramientas usan para hacerlo. Algunos ejemplos pueden ser:
 
 - Escribir código.
@@ -19,10 +24,6 @@ Para el ejercicio de materias se sugiere comenzar con un diagrama de clases en e
 Si no se hizo antes, este es un buen momento para explicar el diagrama más detalladamente.
 
 También, por ser un problema más grande, conviene hablar sobre procesos iterativos.
-
-De mínima, algunas aclaraciones para los estudiantes:
-- Este ejercicio no se puede resolver escribiendo código "de una", conviene con una vista de más alto nivel, pensar qué objetos/clases necesitan y quién conoce a quién.
-- Cuando escriban tests, van a notar que el _setup_ del test es largo, hay que tomarse tiempo para eso.
 
 ## Notas de 2019s1 @ UNSAM
 > Esto es material a tener en cuenta, pero una vez procesado lo borramos.
