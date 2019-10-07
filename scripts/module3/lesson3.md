@@ -4,8 +4,30 @@ El objetivo es utilizar un dominio más voluminoso que los anteriores,
 por ejemplo se puede utilizar https://github.com/wollok/inscripcionMaterias.
 En la descripción que sigue se considera ese ejemplo.
 
-## Notas de Nahuel 2019s1 @ UNSAM
-El ejercicio es complicado. Al principió dejé que lo lean todo y que entren en tema. Luego empecé a "escribir un test" en el pizarrón, para entrar en el juego de qué objetos necesitábamos y ,sobre todo, que el setup era complejo.
+# Algunas notas de cómo llevar adelante el ejercicio
+## ¿Cómo comenzar?
+Los estudiantes podrían tener dificultades al ser la primera vez que se enfrentan a un ejercicio de este volumen, por lo tanto conviene tomarse unos minutos para charlar con ellos sobre cómo comenzar.
+
+Es un buen momento para fomentar la _metacognición_ sobre sus propios procesos de construcción de un programa preguntándoles, qué herramientas usan para hacerlo. Algunos ejemplos pueden ser:
+
+- Escribir código.
+- Proponer objetos candidatos.
+- Realizar un diagrama de clases.
+- Escribir tests unitarios (TDD).
+
+Para el ejercicio de materias se sugiere comenzar con un diagrama de clases en el que se modelen las relaciones. 
+Si no se hizo antes, este es un buen momento para explicar el diagrama más detalladamente.
+
+También, por ser un problema más grande, conviene hablar sobre procesos iterativos.
+
+De mínima, algunas aclaraciones para los estudiantes:
+- Este ejercicio no se puede resolver escribiendo código "de una", conviene con una vista de más alto nivel, pensar qué objetos/clases necesitan y quién conoce a quién.
+- Cuando escriban tests, van a notar que el _setup_ del test es largo, hay que tomarse tiempo para eso.
+
+## Notas de 2019s1 @ UNSAM
+> Esto es material a tener en cuenta, pero una vez procesado lo borramos.
+
+El ejercicio es complicado. Al principió dejé que lo lean todo y que entren en tema. 
 Luego les dejé otro rato para que avanzaran, ya con una idea en la cabeza (para algunas cosas planteamos alternativas, así que tampoco quería acotarlos mucho, tal vez eso no estuvo bueno porque...)
 Al rato me di cuenta que la mayoría estaba en la nada. Algunos habían podido agregar algunas colecciones e implementar algunos métodos que iban a ser necesarios, pero la gran mayoría seguía perdido. Así que puse el proyector y nos pusimos a resolver el primer punto entre todos.
 Al toque me di cuenta que para eso necesitamos saber cómo se iba a inscribir un estudiante a una materia (dónde se guarda la información y blah). Así que comenzamos por el punto 3: Inscribir un alumno a un curso.
