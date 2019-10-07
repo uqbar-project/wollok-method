@@ -25,6 +25,19 @@ Si no se hizo antes, este es un buen momento para explicar el diagrama más deta
 
 También, por ser un problema más grande, conviene hablar sobre procesos iterativos.
 
+## Clases que aparecen a medida que avanza el enunciado
+1. Estudiante, materia y aprobación. 
+   - Esto lleva a discutir el objeto que rompe la relación muchos a muchos entre estudiante y materia.
+   - Podría llevar a dudas sobre la necesidad de otros objetos, como la carrera, pero no es indispensable ahora.
+2. Consultas sobre el modelo anterior.
+3. Carrera y la relación con el estudiante.
+4. Requisitos y revisar las relaciones anteriores.
+5. Atributo cupo, estudiantes confirmados y lista de espera.
+
+Aquí ya tendríamos el modelo completo, no aparecerán clases nuevas, el resto son agregados sobre las existentes.
+
+> Vale preguntarse si hace falta un objeto global que represente a la universidad y conozca algunas colecciones globales; y en todo caso en qué punto aparece ese objeto.
+
 ## Notas de 2019s1 @ UNSAM
 > Esto es material a tener en cuenta, pero una vez procesado lo borramos.
 
